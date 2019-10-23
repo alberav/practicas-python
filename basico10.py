@@ -1,4 +1,7 @@
-def agradecimiento(nombre):
-    print("Hola",nombre)
+import sys
 
-agradecimiento("Pepito")
+nombre=sys.argv[1]
+
+def agradecimiento(nombre):
+    print("Hola", nombre)
+agradecimiento(nombre)
